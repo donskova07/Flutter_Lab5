@@ -1,17 +1,33 @@
-# my_app_donskova
+## Угадай флаг
+### Нажав на кнопку "следующий флаг" появляется флаг и вы должны понять, какой именно это
 
-A new Flutter project.
+ФИО: Донскова Ульяна Группа: ИСП-242 Дата: 25.10.2026
 
-## Getting Started
+## Стек и версии
+- Flutter: 3.47.6
+- Dart: 3.13.5
+- Платформа: Web Chrome
+- IDE: vs code
 
-This project is a starting point for a Flutter application.
+## Скриншот приложения
 
-A few resources to get you started if this is your first Flutter project:
+![](img/step6_донскова.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Структура проекта
+background.dart - отвечает за фон 
+flagi - отвечает за появление флагов
+main - отвечает за включение приложения
+text - отвечает за то, как выглядит текст
+## Как запустить
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- git clone <ссылка на репозиторий>
+- cd <папка проекта>
+- flutter pub get
+- flutter run -d chrome
+
+## Что изучили 
+
+1. Как делать своё приложение
+2. Как работать с картинками
+3. Как работать с рандомными значениями
+4. Как работать с несколькими файлами
